@@ -1,4 +1,4 @@
-package onliner_testng.steps;
+package com.it_academy.homework7.onliner.steps;
 
 import com.it_academy.homework7.onliner.navigation.OnlinerUrl;
 import com.it_academy.homework7.onliner.page_object.pages.BasketPage;

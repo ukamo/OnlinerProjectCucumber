@@ -1,4 +1,4 @@
-package onliner_testng.hooks;
+package com.it_academy.homework7.onliner.hooks;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Scenario;
