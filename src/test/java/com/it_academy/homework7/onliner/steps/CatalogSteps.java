@@ -13,9 +13,9 @@ import static com.it_academy.homework7.onliner.navigation.CatalogNavigation.navi
 
 public class CatalogSteps {
 
-    CatalogPage catalogPage = new CatalogPage();
-    PageOffers pageOffers = new PageOffers();
-    BasketPage basketPage = new BasketPage();
+    public CatalogPage catalogPage = new CatalogPage();
+    public PageOffers pageOffers = new PageOffers();
+    public BasketPage basketPage = new BasketPage();
 
     @Given("the user opens Onliner website")
     public void userOpensOnlinerWebsite() {
@@ -64,7 +64,7 @@ public class CatalogSteps {
 
     @Then("the product is added in Basket {string}")
     public void theProductIsAddedInBasket(String element) {
-        basketPage.getTextSectionItemCatalogLink(element);
+        basketPage.verifyProductTitleIsDisplayedInBasket(element);
     }
 
 
